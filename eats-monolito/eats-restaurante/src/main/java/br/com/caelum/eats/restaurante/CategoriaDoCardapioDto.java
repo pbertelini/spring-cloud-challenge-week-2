@@ -21,6 +21,10 @@ class CategoriaDoCardapioDto {
 		this(categoria.getId(), categoria.getNome(), trataItens(categoria.getItens()));
 	}
 
+	public CategoriaDoCardapioDto(CategoriaDoCardapio id2, Object nome2, List<ItemDoCardapioDto> trataItens) {
+		// TODO Auto-generated constructor stub
+	}
+
 	private static List<ItemDoCardapioDto> trataItens(List<ItemDoCardapio> itens) {
 		return itens.stream().map(ItemDoCardapioDto::new).collect(Collectors.toList());
 	}

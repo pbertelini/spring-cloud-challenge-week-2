@@ -21,4 +21,9 @@ public class ItemDoCardapioDto {
 		this(item.getId(), item.getNome(), item.getDescricao(), item.getPreco(), item.getPrecoPromocional());
 	}
 
+	public ItemDoCardapioDto(ItemDoCardapio id2, Object nome2, Object descricao2, Object preco2,
+			Object precoPromocional2) {
+		// TODO Auto-generated constructor stub
+	}
+
 }

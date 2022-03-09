@@ -1,6 +1,7 @@
 package br.com.caelum.eats.pagamento;
 
 import java.math.BigDecimal;
+import java.util.Map;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -59,4 +60,54 @@ class Pagamento {
 	@Column(nullable=false)
 	private Long formaDePagamentoId;
 
+	public void setStatus(Status criado) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Map<String, ?> getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Long getPedidoId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getCodigo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getFormaDePagamentoId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getExpiracao() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getStatus() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getValor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getNome() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getNumero() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
+	

@@ -16,6 +16,10 @@ public class TipoDeCozinhaDto {
 		this(tipo.getId(), tipo.getNome());
 	}
 
+	public TipoDeCozinhaDto(TipoDeCozinha id2, Object nome2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public TipoDeCozinha toTipoDeCozinha() {
     return new TipoDeCozinha(id, nome);
 	}

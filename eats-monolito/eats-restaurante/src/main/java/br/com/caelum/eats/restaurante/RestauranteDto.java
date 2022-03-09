@@ -41,7 +41,13 @@ public class RestauranteDto {
 				new TipoDeCozinhaDto(restaurante.getTipoDeCozinha()));
 	}
 
-  public void populaRestaurante(Restaurante restaurante) {
+  public RestauranteDto(Long id2, String cnpj2, String nome2, String descricao2, String cep2, String endereco2,
+			BigDecimal taxaDeEntregaEmReais2, Integer tempoDeEntregaMinimoEmMinutos2,
+			Integer tempoDeEntregaMaximoEmMinutos2, Boolean aprovado2, TipoDeCozinhaDto tipoDeCozinhaDto) {
+		// TODO Auto-generated constructor stub
+	}
+
+public void populaRestaurante(Restaurante restaurante) {
     restaurante.setCnpj(cnpj);
     restaurante.setNome(nome);
     restaurante.setDescricao(descricao);

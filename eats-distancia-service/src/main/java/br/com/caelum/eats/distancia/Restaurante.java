@@ -25,4 +25,14 @@ public class Restaurante {
 	@Column(nullable = false)
 	private Long tipoDeCozinhaId;
 
+	public Long getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getCep() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

@@ -33,5 +33,20 @@ class CategoriaDoCardapio {
 
 	@OneToMany(mappedBy="categoria")
 	private List<ItemDoCardapio> itens = new ArrayList<>();
+
+	public List<ItemDoCardapio> getItens() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public CategoriaDoCardapio getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getNome() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }

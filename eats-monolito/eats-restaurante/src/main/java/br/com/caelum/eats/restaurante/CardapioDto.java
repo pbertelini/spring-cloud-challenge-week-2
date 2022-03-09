@@ -20,6 +20,10 @@ class CardapioDto {
 		this(cardapio.getId(), trataCategorias(cardapio.getCategorias()));
 	}
 
+	public CardapioDto(Cardapio id2, List<CategoriaDoCardapioDto> trataCategorias) {
+		// TODO Auto-generated constructor stub
+	}
+
 	private static List<CategoriaDoCardapioDto> trataCategorias(List<CategoriaDoCardapio> categorias) {
 		return categorias.stream().map(CategoriaDoCardapioDto::new).collect(Collectors.toList());
 	}

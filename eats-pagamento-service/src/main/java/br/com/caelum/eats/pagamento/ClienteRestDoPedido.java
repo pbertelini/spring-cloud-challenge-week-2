@@ -39,7 +39,11 @@ public class ClienteRestDoPedido {
 @Getter
 @AllArgsConstructor
 class PedidoMudancaDeStatusRequest {
-    private String status;
+    public PedidoMudancaDeStatusRequest(String upperCase) {
+		// TODO Auto-generated constructor stub
+	}
+
+	private String status;
 }
 
 

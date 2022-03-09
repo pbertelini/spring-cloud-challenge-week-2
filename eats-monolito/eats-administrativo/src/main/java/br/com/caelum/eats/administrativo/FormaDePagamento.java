@@ -36,4 +36,19 @@ public class FormaDePagamento {
 	@Size(max = 100)
 	private String nome;
 
+	public FormaDePagamento getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getTipo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getNome() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
