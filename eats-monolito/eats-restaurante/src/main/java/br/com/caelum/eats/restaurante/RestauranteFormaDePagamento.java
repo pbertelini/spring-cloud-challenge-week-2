@@ -20,11 +20,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 class RestauranteFormaDePagamento {
 
-	public RestauranteFormaDePagamento(RestauranteFormaDePagamentoId id2, Restaurante restaurante2,
-			FormaDePagamento formaDePagamento2) {
-		// TODO Auto-generated constructor stub
-	}
-
 	@EmbeddedId
 	private RestauranteFormaDePagamentoId id;
 
@@ -41,14 +36,6 @@ class RestauranteFormaDePagamento {
 	@NoArgsConstructor
 	@AllArgsConstructor
 	static class RestauranteFormaDePagamentoId implements Serializable {
-		public RestauranteFormaDePagamentoId(Long idRestaurante, FormaDePagamento id) {
-			// TODO Auto-generated constructor stub
-		}
-
-		public RestauranteFormaDePagamentoId(Long idRestaurante, Long idFormaDePagamento) {
-			// TODO Auto-generated constructor stub
-		}
-
 		private static final long serialVersionUID = 1L;
 
 		@Column(name = "restaurante_id")

@@ -23,9 +23,4 @@ class HorarioDeFuncionamentoDto {
 	public HorarioDeFuncionamentoDto(HorarioDeFuncionamento horario) {
 		this(horario.getId(), horario.getDiaDaSemana(), horario.getHorarioDeAbertura(), horario.getHorarioDeFechamento());
 	}
-
-	public HorarioDeFuncionamentoDto(HorarioDeFuncionamento id2, Object diaDaSemana2, Object horarioDeAbertura2,
-			Object horarioDeFechamento2) {
-		// TODO Auto-generated constructor stub
-	}
 }

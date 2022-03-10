@@ -17,9 +17,5 @@ public class FormaDePagamentoDto {
 	public FormaDePagamentoDto(FormaDePagamento forma) {
 		this(forma.getId(), forma.getTipo(), forma.getNome());
 	}
-
-	public FormaDePagamentoDto(FormaDePagamento id2, Object tipo2, Object nome2) {
-		// TODO Auto-generated constructor stub
-	}
 	
 }

@@ -29,19 +29,4 @@ class Cardapio {
 	@OneToMany(mappedBy="cardapio")
 	private List<CategoriaDoCardapio> categorias = new ArrayList<>();
 
-	public List<CategoriaDoCardapio> getCategorias() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Cardapio getId() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public void setRestaurante(Restaurante restauranteSalvo) {
-		// TODO Auto-generated method stub
-		
-	}
-
 }

@@ -42,29 +42,4 @@ public class ItemDoCardapio {
 	public BigDecimal getPrecoEfetivo() {
 		return precoPromocional != null ? precoPromocional : preco;
 	}
-
-	public Object getPrecoPromocional() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public ItemDoCardapio getId() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Object getDescricao() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Object getNome() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Object getPreco() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }

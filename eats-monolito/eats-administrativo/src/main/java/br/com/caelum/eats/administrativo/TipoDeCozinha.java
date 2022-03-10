@@ -23,18 +23,4 @@ public class TipoDeCozinha {
 	@NotBlank @Size(min=3, max=100)
 	private String nome;
 
-	public TipoDeCozinha(Long id2, String nome2) {
-		// TODO Auto-generated constructor stub
-	}
-
-	public TipoDeCozinha getId() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Object getNome() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }

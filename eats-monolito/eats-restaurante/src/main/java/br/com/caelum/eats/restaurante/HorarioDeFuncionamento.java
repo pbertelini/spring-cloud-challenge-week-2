@@ -39,25 +39,5 @@ class HorarioDeFuncionamento {
 	@ManyToOne
 	private Restaurante restaurante;
 
-	public Object getDiaDaSemana() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Object getHorarioDeFechamento() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Object getHorarioDeAbertura() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public HorarioDeFuncionamento getId() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 
 }
